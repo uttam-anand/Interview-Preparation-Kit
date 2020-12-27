@@ -22,10 +22,12 @@ void sort012(int a[],int n)
 }
 int main()
 {
+	/*
 	#ifndef ONLINE_JUDGE
 	freopen("input.txt","r",stdin);
 	freopen("output.txt","w",stdout);
 	#endif	
+	*/
 	int a[MAX],n;
 	cin>>n;
 	for(int i=0;i<n;i++)
