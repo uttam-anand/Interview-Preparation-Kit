@@ -24,7 +24,7 @@ void IO()
 }
 int main()
 {
-	IO();	
+	//IO();	
 	int a[]={10 ,20,50,-50,-80,-96,87,998};
 	int n=sizeof(a)/sizeof(a[0]);
 	solve(a,n);
