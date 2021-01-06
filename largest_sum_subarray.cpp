@@ -22,7 +22,7 @@ void IO()
 }
 int main()
 {
-	IO();	
+	//IO();	
 	int a[]={10,20,-30,40,5};
 	int n=sizeof(a)/sizeof(a[0]);
 	cout<<max_sum(a,n);	
