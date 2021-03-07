@@ -9,3 +9,12 @@ public:
         return true;
     }
 };
+
+
+// or with the regex method 
+
+class Solution {
+    public boolean checkOnesSegment(String S) {
+        return S.matches("0*1+0*");
+    }
+}
